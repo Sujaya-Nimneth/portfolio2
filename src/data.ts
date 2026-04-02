@@ -101,7 +101,7 @@ export const projects: Project[] = [
     ],
     techStack: ['TypeScript', 'Next.js', 'CSS', 'Vercel'],
     github: 'https://github.com/Sujaya-Nimneth/SDGP-CS-75---website',
-    live: 'https://sdgp-cs-75-website.vercel.app',
+    live: 'https://www.neurosync.social',
     year: '2026',
   },
   {
@@ -134,8 +134,8 @@ export const projects: Project[] = [
       'Portfolio allocation breakdown and insights',
     ],
     techStack: ['Next.js', 'Chart.js', 'REST API', 'Supabase'],
-    github: 'https://github.com/Sujaya-Nimneth',
-    live: '#',
+    github: 'https://github.com/Sujaya-Nimneth/cryptoflow',
+    live: 'https://9dffbbf5.cryptoflow-c4x.pages.dev',
     year: '2026',
   },
 ];
