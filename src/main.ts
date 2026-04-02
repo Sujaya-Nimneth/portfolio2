@@ -116,7 +116,7 @@ function initTypingAnimation() {
   function type() {
     const current = typingTexts[tIdx];
     if (!deleting) {
-      el.textContent = current.substring(0, cIdx + 1);
+      el!.textContent = current.substring(0, cIdx + 1);
       cIdx++;
       if (cIdx === current.length) {
         setTimeout(() => { deleting = true; type(); }, 2000);
@@ -124,7 +124,7 @@ function initTypingAnimation() {
       }
       setTimeout(type, 80);
     } else {
-      el.textContent = current.substring(0, cIdx - 1);
+      el!.textContent = current.substring(0, cIdx - 1);
       cIdx--;
       if (cIdx === 0) {
         deleting = false;
