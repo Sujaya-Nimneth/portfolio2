@@ -73,6 +73,23 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
+    title: 'VectorTrace',
+    subtitle: 'Real-time epidemiological dashboard for outbreak tracking and response',
+    description: 'VectorTrace is a command-center web platform for monitoring hantavirus risks in real time. It combines a high-signal operational UI, geospatial tracking, and rapid case intake with a Supabase-backed data layer and role-based access control. The app includes an admin-only infrastructure console that surfaces system health signals for the ingestion pipeline, enabling rapid response and operational visibility across the surveillance workflow.',
+    features: [
+      'Command-center dashboard for live incident monitoring',
+      'Geospatial mapping and case visualization with Leaflet',
+      'Role-based access control with secure data workflows',
+      'Admin-only infrastructure console for pipeline health',
+      'Supabase-powered backend with fast case intake',
+      'Real-time epidemiological tracking and risk assessment',
+    ],
+    techStack: ['TypeScript', 'React', 'TanStack Start', 'Vite', 'Tailwind CSS', 'Supabase', 'Leaflet'],
+    github: 'https://github.com/Sujaya-Nimneth/VectorTrace-Hantavirus-Surveillance',
+    live: 'https://vectortrace-hantavirus-surveillance.sujayanimneth.workers.dev/',
+    year: '2026',
+  },
+  {
     title: 'Oil Burn Tracker',
     subtitle: 'Real-time satellite fire detection for conflict-affected infrastructure',
     description: 'OilBurnTracker combines real-time satellite fire detection with facility identification and emissions estimates to monitor conflict-affected oil and gas infrastructure. Features an interactive 3D satellite map with terrain visualization, facility markers scaled by impact, and NASA FIRMS satellite fire detections.',
