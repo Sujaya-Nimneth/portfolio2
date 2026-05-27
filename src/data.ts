@@ -208,6 +208,23 @@ export const projects: Project[] = [
     live: 'https://9dffbbf5.cryptoflow-c4x.pages.dev',
     year: '2026',
   },
+  {
+    title: 'Autonomous RL Agent Arena',
+    subtitle: 'Deep reinforcement learning agent training and visual simulation playground',
+    description: 'An interactive, web-based simulation and training environment for reinforcement learning agents. Users can configure, train, and visualize deep reinforcement learning models (such as Q-Learning and Deep Q-Networks) in real time across custom-built gridworlds and control environments. The platform renders real-time reward convergence metrics, interactive agent path planning overlays, and dynamic Q-value mapping.',
+    features: [
+      'Real-time training visualization with adjustable learning rates and exploration policy overrides',
+      'Customizable physics-based gridworld environments with dynamic obstacle placement',
+      'Fully client-side model execution using TensorFlow.js for deep Q-networks (DQN)',
+      'Interactive state-action value (Q-value) heatmap overlays updated on every step',
+      'Dynamic reward convergence line graphs and episode performance tracking metrics',
+      'Frictionless sandbox controls to pause, accelerate, and checkpoint model training states',
+    ],
+    techStack: ['TypeScript', 'React', 'TensorFlow.js', 'Chart.js', 'Vite', 'Tailwind CSS'],
+    github: 'https://github.com/Sujaya-Nimneth/reinforcement-learning-agent',
+    live: '#',
+    year: '2026',
+  },
 ];
 
 export const education: Education[] = [
